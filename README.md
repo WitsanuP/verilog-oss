@@ -6,11 +6,11 @@ demo run verilog with oss (Open-Source Software)
 - yosys      : synthesis
 
 
-using this command to *creat simulation*
+using this command to **creat simulation**
 ```
 verilator --cc counter.v --exe tb_counter.cpp --trace --build -o sim_counter
 ```
-and then *run simualation*
+and then **run simualation**
 ```
 ./obj_dir/sim_counter
 ```
