@@ -22,3 +22,8 @@ synthesis and view schematic
 ```
 yosys -p "read_verilog counter.v; synth -top counter; show"
 ```
+or
+```
+yosys -s script.tcl
+```
+
